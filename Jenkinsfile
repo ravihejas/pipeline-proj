@@ -16,5 +16,12 @@ pipeline {
         echo 'app-deploying...'
       }
     }
-  }
+ }
+   stage ("deploy2") {
+      steps {
+        echo 'app-deploying2...'
+      }
+    }
+
 }
+
